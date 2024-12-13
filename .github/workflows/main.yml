@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements/requirements.txt
       - name: Push to Hugging Face Hub
-        uses: huggingface/huggingface-cli-action@v0.1  # Use a valid version
+        uses: huggingface/hub-actions@v0.1  # Use a valid version
         with:
-          token: ${{ secrets.HF_TOKEN }}
+          token: ${{ secrets.HG }}
           repo_id: praneetha38/Project5502  # Specify the Hugging Face repo ID
           branch: main
