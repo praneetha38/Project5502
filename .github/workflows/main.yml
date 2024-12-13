@@ -33,5 +33,5 @@ jobs:
         uses: huggingface/hub-actions/push@v0.1  # Use a valid version
         with:
           token: ${{ secrets.HF_TOKEN }}
-          repo_id: your-username/your-repo  # Specify the Hugging Face repo ID
+          repo_id: praneetha38/Project5502  # Specify the Hugging Face repo ID
           branch: main
